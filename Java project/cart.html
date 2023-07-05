@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h3>Shopping Cart</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Product 1</td>
+                            <td><input type="number" class="form-control" value="1" min="1"></td>
+                            <td>$10.00</td>
+                            <td>$10.00</td>
+                            <td><button type="button" class="btn btn-sm btn-danger">Remove</button></td>
+                        </tr>
+                        <tr>
+                            <td>Product 2</td>
+                            <td><input type="number" class="form-control" value="2" min="1"></td>
+                            <td>$15.00</td>
+                            <td>$30.00</td>
+                            <td><button type="button" class="btn btn-sm btn-danger">Remove</button></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-right"><strong>Total:</strong></td>
+                            <td colspan="2">$40.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary">Continue Shopping</a>
+                    <a href="#" class="btn btn-success">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
